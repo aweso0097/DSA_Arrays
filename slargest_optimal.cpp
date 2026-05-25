@@ -11,7 +11,7 @@ int slargest(vector <int> &arr) {
             largest = arr[i];
         }
     }
-    int slargest = -1;
+    int slargest = INT_MIN;
     for(int i =0;i < arr.size();i++) {
         if (arr[i] > slargest && arr[i] != largest) {
             slargest = arr[i];
